@@ -20,9 +20,11 @@
         %button.copy-secret-url{ "data-clipboard-target" => "#secret_url" }
           = image_tag('button_up.png')
       %span.note
-        This note won't be shown again...
+        This note won't be shown again.
         %br/
-        Don't believe me?  Go ahead.  Hit reload...
+
+    = link_to image_tag("spidergroup-logo.png", :style => "margin-bottom:30px; max-width: 300px;", :alt => "Spidergroup Logo" ), "https://www.spidergroup.com"
+
   %p.normal-sg-font
     Your password is...
 
