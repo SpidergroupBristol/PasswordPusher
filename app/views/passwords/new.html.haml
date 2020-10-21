@@ -1,7 +1,8 @@
 = form_for @password do |f|
   %p
     %div.title
-      %img(src="/images/spidergroup-logo-tag.png")
+      = link_to image_tag("spidergroup-logo-tag.png", :alt => "Spidergroup Logo" ), "/"
+      
       %br
       %span.tagline For use by SpiderGroup staff only.
   %p.payload
