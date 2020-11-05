@@ -16,7 +16,7 @@ RUN apt-get update -qq && \
     cd ${APP_ROOT} && \
     chown -R 1001:root ${APP_ROOT}
 
-EXPOSE 5000
+EXPOSE 443
 
 RUN gem update --system
 RUN gem install bundler
